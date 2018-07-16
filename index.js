@@ -83,8 +83,8 @@ app.get('/companies/:id', function(req, res) {
 });
 
 
-app.listen(3000, function() {
-  console.log('Started on http://localhost:3000');
+app.listen(PORT, function() {
+  console.log(`App started on http://localhost:${PORT}`);
 });
 
 function makeTree(input) {
